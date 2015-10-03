@@ -1,0 +1,63 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #47bbb3;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+$loadtime-color:      #9c4274;
+$throughput-color:    #ff9618;
+$error-color:         #dc5945;
+$apdex-color:         $background-color;
+
+// ----------------------------------------------------------------------------
+// Widget-atatus styles
+// ----------------------------------------------------------------------------
+.widget-atatus {
+
+  background-color: $background-color;
+
+  img {
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .title {
+    color: $title-color;
+  }
+
+  .value {
+    color: $value-color;
+  }
+
+  .change-rate {
+    font-weight: 500;
+    font-size: 30px;
+    color: $value-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}
+
+.atatus_load_time {
+  background-color: $loadtime-color;
+}
+.atatus_throughput {
+  background-color: $throughput-color;
+}
+.atatus_error_count {
+  background-color: $error-color;
+}
+.atatus_apdex {
+  background-color: $apdex-color;
+}

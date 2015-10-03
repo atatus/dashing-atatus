@@ -9,7 +9,7 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
 
 $loadtime-color:      #9c4274;
 $throughput-color:    #ff9618;
-$error-color:         #dc5945;
+$error-color:         #f06161;
 $apdex-color:         $background-color;
 
 // ----------------------------------------------------------------------------
@@ -21,8 +21,6 @@ $apdex-color:         $background-color;
 
   img {
     margin-bottom: 20px;
-    height: 100px;
-    width: 100px;
   }
 
   .title {

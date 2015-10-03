@@ -30,14 +30,14 @@ and run `bundle install`.
 
 To include the widget in a dashboard, add the following snippet to the dashboard layout file:
 
-* **Response time widget**
+* **Page Load time widget**
 ```html
 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
   <div id="atatus_load_time" data-id="atatus_load_time" data-view="Number" data-title="Load  time" data-green="2000" data-yellow="5000" style="background-color:#9c4274;"></div>
 </li>
 ```
 
-* **RPM (throughput) widget**
+* **Throughput widget**
 ```html
 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
   <div id="atatus_throughput" data-id="atatus_throughput" data-view="Number" data-title="Page views" data-green="20000" data-yellow="25000" style="background-color:#ff9618;"></div>
